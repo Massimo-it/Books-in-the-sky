@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo-Massimo-Dattero.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="CSS/style-books.css">
+    <title>I want you to read more books</title>
+</head>
+<body>
+  <header>
+    <img src="img/book-in-the-sky.png" alt="image of books with sky as background" id="books-in-the-sky"> 
+    <h1>I WANT YOU TO READ MORE BOOKS</h1>
+    <h2>Choose a topic and see how many beautiful books are available on <a href="https://openlibrary.org/" target="_blank" class="openlibrary">openlibrary.org</a></h2>
+    
+  </header>
+  
+  <main>
+  
+    <span id="myLabel">Enter a topic of your interest (max 20 char - no spaces)</span>
+    <br>
+    <input name="subject" id="subject" type="text" maxlength="20">
+    <br><br>
+    
+      <input type="button" id="btn" value="Start Search">
+    
+    <div id="chosen-book"></div>
+    <div id="description">
+      <p id="more-details"></p>
+      <div id="output-info"></div>
+    </div>
+    
+    <p id="output-empty"></p>
+  
+  </main>
+  
+  <footer>
+    <img src="img/logo-Massimo-Developer-sfondi-rosso.svg" alt="my logo" width="100" height="20">
+    <p>Author: Massimo Dattero - tel. 0078 784 025 883 - <a href="mailto:massimo.developer@protonmail.com">massimo.developer@protonmail.com</a></p>
+    <!-- <img src="book-in-the-sky.svg" alt="image of books with sky as background" width="100" height="20"> -->
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="JS/jsbooks.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#books-in-the-sky {
+  width: 100%;
+  height: 200px;
+}
+
+h1 {
+  color: #006699;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 10px 15px 30px 15px;
+  padding: 10px;
+  color: white;
+  background-color: #006699;
+}
+
+.openlibrary {
+  color: #b3e6ff;
+}
+
+span {
+  color: #006699;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 10px 15px 7px 15px;
+}
+
+#subject{
+  width: 70%;
+  height: 30px;
+  font-size: 20px;
+  border: 2px dotted #006699;
+}
+
+#btn {
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: #006699;
+  border: 2px solid #ff0066;
+  font-size: 20px;
+}
+
+#more-details {
+  margin: 10px auto;
+  padding: 10px;
+  color: #ff0066;
+  font-size: 23px;
+}
+
+.one-book {
+  color: #006699;
+  margin: 10px;
+  padding: 20px 10px;
+  background-color: #b3e6ff;
+  border: 5px solid #006699;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#description {
+  margin: 30px 10px;
+  color: #006699;
+}
+
+#new-search {
+  padding: 10px;
+  margin-top: 20px;
+  color: white;
+  background-color: #006699;
+  border: 2px solid #ff0066;
+  font-size: 20px;
+}
+
+#output-empty {
+  margin: 10px auto;
+  padding: 10px;
+  color: #ff0066;
+  font-size: 23px;
+}
+
+footer {
+  color: #006699;
+  background-color: #b3e6ff;
+  margin-top: 30px;
+  padding: 15px;
+}
+
+@media screen and (min-width: 700px) {
+  #books-in-the-sky {
+    height: 300px;
+  }
+  h1 {
+    margin-bottom: 0;
+  }
+  .one-book {
+    margin: 10px 100px;
+  }
+}
+
